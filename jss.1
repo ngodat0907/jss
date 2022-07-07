@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let numbercoca = 5;
+        let cocaprice = 10000;
+        let cocamoney = cocaprice * numbercoca;
+        let VAT = cocamoney * (5 / 100);
+
+        let numberwine = 5;
+        let winecapacity = 5;
+        let wineprice = 15000;
+        let winemoney = numberwine * winecapacity * wineprice;
+
+        console.log("tổng tiền gồm thuế = " + (VAT + cocamoney + winemoney));
+        console.log("tổng tiền chưa thuế = " + (cocamoney + winemoney));
+        console.log("tổng tiền 5 lon nước = " + cocamoney);
+        console.log("tông tiền 5 chai rượu = " + winemoney);
+        
+    </script>
+</body>
+</html>
